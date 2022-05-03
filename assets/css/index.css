@@ -1,0 +1,81 @@
+body {
+	height: 100vh;
+	background-image:linear-gradient(to right top, #21002b, #19032c, #11062c, #08082a, #000a28);
+	background-repeat: no-repeat;
+}
+
+#sun {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 30vw;
+	margin: auto;
+}
+
+#mercury {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 2vw;
+	animation:
+		animXMercury 4s cubic-bezier(0.36, 0, 0.64, 1) -2s infinite alternate,
+        animYMercury 4s cubic-bezier(0.36, 0, 0.64, 1) 0s infinite alternate;
+}
+
+@keyframes animXMercury{
+	0% {left: 20vw;}
+	100% {left: -20vw;}
+}
+@keyframes animYMercury{
+	0% {top: -20vh;}
+	100% {top: 20vh;}
+}
+
+#venus {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 2vw;
+	animation:
+		animXVenus 5s cubic-bezier(0.36, 0, 0.64, 1) -2.5s infinite alternate,
+        animYVenus 5s cubic-bezier(0.36, 0, 0.64, 1) 0s infinite alternate;
+}
+
+@keyframes animXVenus{
+	0% {left: -30vw;}
+	100% {left: 30vw;}
+}
+@keyframes animYVenus{
+	0% {top: -25vh;}
+	100% {top: 25vh;}
+}
+
+#earth {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 2vw;
+	animation:
+		animXEarth 6s cubic-bezier(0.36, 0, 0.64, 1) -3s infinite alternate,
+        animYEarth 6s cubic-bezier(0.36, 0, 0.64, 1) 0s infinite alternate;
+}
+
+@keyframes animXEarth{
+	0% {left: -30vw;}
+	100% {left: 30vw;}
+}
+@keyframes animYEarth{
+	0% {top: -30vh;}
+	100% {top: 30vh;}
+}

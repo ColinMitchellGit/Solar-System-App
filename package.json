@@ -1,0 +1,25 @@
+{
+  "name": "planet",
+  "version": "1.0.0",
+  "description": "A simple website about our solar system",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColinMitchellGit/Solar-System-App.git"
+  },
+  "keywords": [
+    "solarsystem"
+  ],
+  "author": "Colin Mitchell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColinMitchellGit/Solar-System-App/issues"
+  },
+  "homepage": "https://github.com/ColinMitchellGit/Solar-System-App#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
